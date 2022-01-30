@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day2 Conditional Statement Switch</title>
+    <script type="text/javascript" src="day2switch.js"></script>
+  </head>
+  <body>
+    <h1>Day 2 Conditional Statement Switch</h1>
+    <h2>10 Days of javascript</h3>
+    <br />
+    <h3>Objective</h2>
+    <p>In this challenge, we learn about switch Statements.</p>
+    <h3>Task</h3>
+    <p>
+      Complete the getLetter(s) function in the editor. It has one parameter: a
+      string, s. consisting of lowercase English alphabetic letters(i.e., a
+      through z). <br />It must return A,B,C, or D depending on the following
+      criteria:
+    </p>
+    <ul>
+      <li>
+        If the first character in string is in the set
+        <strong>{<em>a,e,i,o,u</em>}</strong>, then return A.
+      </li>
+      <li>
+        If the first character in string is in the set
+        <strong>{<em>b, c, d, f, g</em>}</strong>, then return A.
+      </li>
+      <li>
+        If the first character in string is in the set
+        <strong>{<em>h,j,k,l,m</em>}</strong>, then return C.
+      </li>
+      <li>
+        If the first character in string is in the set
+        <strong>{<em>n,p,q,r,s,t,v,w,x,y,z</em>}</strong>, then return D.
+      </li>
+    </ul>
+    <p>
+      <strong>Hint:</strong> You can get the letter at some index
+      <strong><em>i</em></strong> in <strong><em>s</em></strong> using the
+      syntax s[i] or s.charAt(i).
+    </p>
+    <h3>Function Description</h3>
+    <p>Complete the getLetter function in the editor below.</p>
+    <p><em>getLetter</em> has the following parameters:</p>
+    <ul>
+      <li>
+        <p><em>string s:</em>a string</p>
+      </li>
+    </ul>
+    <h4>Returns</h4>
+    <ul>
+      <li>
+        <p><em>string:</em>a single letter determined as described above</p>
+      </li>
+    </ul>
+    <h3>Input Format</h3>
+    <p>
+      Stub code in the editor reads a single string denoting
+      <strong><em>s</em></strong> from stdin.
+    </p>
+    <h3>Constraints</h3>
+    <ul>
+      <li>
+        <p>
+          <strong>1 &lt;= |s| &lt;= 100</strong>, where <strong>|s|</strong> 
+          is the length of <strong><em>s</em></strong>.
+        </p>
+      </li>
+      <li>
+        <p>
+          String
+          <strong><em>s</em></strong> contains lowercase English alphabetic
+          letters (i.e., a through z) only.
+        </p>
+      </li>
+    </ul>
+    <p>Sample Input 0</p>
+    <p>adfgt</p>
+    <p>Sample Output 0</p>
+    <p>A</p>
+    <p>Explanation 0</p>
+    <p>
+      The first character of string <strong><em>s</em> = adfgt</strong> is a.
+      Because the given criteria stipulate<br />that we print A any time the
+      first character is in <strong>{<em>a,e,i,o,u</em>}</strong>, we return A
+      as our answer.
+    </p>
+    <br>
+
+  </body>
+</html>
