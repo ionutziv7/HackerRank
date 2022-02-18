@@ -51,5 +51,6 @@ int main()
   for(auto room : rooms) {
     delete room;
   }
+  rooms.clear();
   return 0;
 }
