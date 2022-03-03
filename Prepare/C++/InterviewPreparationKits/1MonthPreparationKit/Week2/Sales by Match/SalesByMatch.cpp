@@ -14,7 +14,7 @@ int main()
         freq[c]++;
     }
     int result = 0;
-    for(int i=0; i< 100; ++i)
+    for(int i=0; i<= 100; ++i)
         result += freq[i] / 2;
         
     cout << result << endl;
